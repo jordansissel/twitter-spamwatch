@@ -1,0 +1,8 @@
+
+
+Idea:
+
+1)  Subscribe to the twitter stream api filtering on 'http' and 'https' keywords.
+2)  Store tweets and url counts
+3)  Analyze
+4)  Profit?
