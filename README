@@ -14,3 +14,38 @@ Uses:
 - em-http-request
 - mongodb
 - twitter stream api
+
+
+After running this for about 20 minutes - I observe:
+
+- Twitter seems to limit sending me either 50 tweets/sec *or* about 105kB/sec,
+  not sure which, probably 50 tweets.
+- The documents twitter sends are *huge* and include the full user account,
+  url breakdown, hashtags, etc.
+- Apparently the most popular url on twitter (per the sample I get) is some
+  stupid horoscope site. Depressing, though it makse sense.
+
+Example:
+
+> db.ns.find({ "hits": { "$gt": 10 } }, { "_id": 0 }).sort({ "hits": -1})
+{ "hits" : 279, "url" : "http://twittascope.com/?sign=8" }
+{ "hits" : 277, "url" : "http://twittascope.com/?sign=5" }
+{ "hits" : 271, "url" : "http://twittascope.com/?sign=4" }
+{ "hits" : 268, "url" : "http://twittascope.com/?sign=3" }
+{ "hits" : 259, "url" : "http://twittascope.com/?sign=6" }
+{ "hits" : 253, "url" : "http://twittascope.com/?sign=9" }
+{ "hits" : 246, "url" : "http://twittascope.com/?sign=11" }
+{ "hits" : 240, "url" : "http://twittascope.com/?sign=2" }
+{ "hits" : 237, "url" : "http://twittascope.com/?sign=12" }
+{ "hits" : 234, "url" : "http://twittascope.com/?sign=7" }
+{ "hits" : 221, "url" : "http://ustre.am/rxpz" }
+{ "hits" : 217, "url" : "http://twittascope.com/?sign=1" }
+{ "hits" : 210, "url" : "http://twittascope.com/?sign=10" }
+{ "hits" : 124, "url" : "http://tinychat.com" }
+{ "hits" : 118, "url" : "http://tinyurl.com/2f5jbs7" }
+{ "hits" : 115, "url" : "http://shindanmaker.com/71670" }
+{ "hits" : 109, "url" : "http://tinyurl.com/389vndx" }
+{ "hits" : 104, "url" : "http://tinyurl.com/3y65zwm" }
+{ "hits" : 95, "url" : "http://twitpic.com/3ipazs" }
+{ "hits" : 67, "url" : "http://twitcam.com/36fsd" }
+
