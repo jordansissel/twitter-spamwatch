@@ -6,3 +6,11 @@ Idea:
 2)  Store tweets and url counts
 3)  Analyze
 4)  Profit?
+
+Uses:
+- ruby
+- eventmachine
+- em-mongo
+- em-http-request
+- mongodb
+- twitter stream api
