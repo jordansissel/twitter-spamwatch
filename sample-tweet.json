@@ -1,0 +1,106 @@
+{
+  "coordinates"               => nil,
+  "favorited"                 => false,
+  "truncated"                 => false,
+  "created_at"                => "Sat Dec 25 10:32:27 +0000 2010",
+  "id_str"                    => "18615044434563072",
+  "entities"                  => {
+    "urls"          => [
+      [0] {
+        "expanded_url" => nil,
+        "url"          => "http://bit.ly/dCx0n2",
+        "indices"      => [
+          [0] 57,
+          [1] 77
+        ]
+      }
+    ],
+    "hashtags"      => [
+      [0] {
+        "text"    => "Skepta",
+        "indices" => [
+          [0] 80,
+          [1] 87
+        ]
+      },
+      [1] {
+        "text"    => "PreeyaKalidas",
+        "indices" => [
+          [0] 88,
+          [1] 102
+        ]
+      },
+      [2] {
+        "text"    => "CrossMyHeart",
+        "indices" => [
+          [0] 103,
+          [1] 116
+        ]
+      },
+      [3] {
+        "text"    => "music",
+        "indices" => [
+          [0] 117,
+          [1] 123
+        ]
+      },
+      [4] {
+        "text"    => "video",
+        "indices" => [
+          [0] 124,
+          [1] 130
+        ]
+      }
+    ],
+    "user_mentions" => []
+  },
+  "in_reply_to_user_id_str"   => nil,
+  "contributors"              => nil,
+  "text"                      => "Skepta ft. Preeya Kalidas - Cross My Heart | WATCH VIDEO http://bit.ly/dCx0n2 | #Skepta #PreeyaKalidas #CrossMyHeart #music #video",
+  "id"                        => 18615044434563072,
+  "retweet_count"             => 0,
+  "in_reply_to_status_id_str" => nil,
+  "geo"                       => nil,
+  "retweeted"                 => false,
+  "in_reply_to_user_id"       => nil,
+  "in_reply_to_screen_name"   => nil,
+  "user"                      => {
+    "profile_background_tile"      => false,
+    "name"                         => "Alderec King",
+    "profile_sidebar_fill_color"   => "bababa",
+    "profile_sidebar_border_color" => "333333",
+    "created_at"                   => "Mon May 24 10:32:59 +0000 2010",
+    "profile_image_url"            => "http://a2.twimg.com/profile_images/926347239/Alex_-_Alderec_Avatar_normal.jpg",
+    "location"                     => "Barcelona, Spain",
+    "follow_request_sent"          => nil,
+    "id_str"                       => "147521437",
+    "profile_link_color"           => "0084B4",
+    "is_translator"                => false,
+    "url"                          => "http://www.ok-fiesta.com",
+    "favourites_count"             => 0,
+    "contributors_enabled"         => false,
+    "utc_offset"                   => 3600,
+    "id"                           => 147521437,
+    "listed_count"                 => 1675,
+    "profile_use_background_image" => true,
+    "lang"                         => "en",
+    "protected"                    => false,
+    "profile_text_color"           => "333333",
+    "followers_count"              => 42050,
+    "time_zone"                    => "Madrid",
+    "notifications"                => nil,
+    "profile_background_color"     => "000000",
+    "description"                  => "Web DJ, Music Blogger, Web Designer. I like discovering next music stars, follow me and you'll have a great twitter-music!",
+    "geo_enabled"                  => false,
+    "verified"                     => false,
+    "friends_count"                => 44913,
+    "statuses_count"               => 19802,
+    "profile_background_image_url" => "http://a0.twimg.com/profile_background_images/104601668/Sfondo_Alderec_1280x800.jpg",
+    "following"                    => nil,
+    "screen_name"                  => "AlderecKing",
+    "show_all_inline_media"        => false
+  },
+  "source"                    => "web",
+  "place"                     => nil,
+  "in_reply_to_status_id"     => nil
+}
